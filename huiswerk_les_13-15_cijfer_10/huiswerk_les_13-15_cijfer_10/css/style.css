@@ -1,0 +1,155 @@
+/* css stylesheet huiswerk les 15 */
+
+body{
+  background-color: #fcfaf5;
+  padding: 5px;
+}
+
+/* header en menu */
+header{
+  background-color: #ed1b2e;
+  padding: 5px;
+  width: 100%;
+  height: 200px;
+}
+
+ul a{
+  color: red;
+  text-decoration: none;
+}
+
+li{
+  display: inline-block;
+  background-color: white;
+  color: red;
+  height: 22px;
+  width: 100px;
+  padding: 12px;
+  text-align: center;
+  border-left: 2px solid blue;
+  border-right: 2px solid blue;
+  border-top: 2px solid blue;
+  border-bottom: 2px solid blue;
+  border-radius: 12px;
+}
+
+li:hover{
+  background-color: blue;
+  color: white;
+  border-style: none;
+}
+
+h1{
+  text-align: center;
+  color: white;
+}
+/* pagina's algemeen */
+h2{
+  text-align: center;
+}
+
+p{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 5px;
+  width: 400px;
+  height: 400px;
+}
+
+#p1, #p2, table{
+  background-color: #E0FFFF;
+  padding: 5px;
+  height: auto;
+}
+
+/* foto en paragraph index.html */
+img{
+  display: block;
+  padding: 5px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 400px;
+  height: 400px;
+}
+
+/* hyperlinks <p> index.html */
+.link{
+  color: blue;
+  text-decoration: none;
+}
+
+.link:hover{
+  background-color: #1B98E033;
+}
+
+/* cv pagina */
+#cv{
+  display: block;
+  padding: 5px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 400px;
+  height: 100px;
+}
+
+table{
+  border-collapse: collapse;
+}
+
+.table{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 5px;
+  width: 400px;
+  height: 200px;
+}
+
+td, th{
+  padding: 10px 5px;
+  text-align: center;
+}
+/* contact pagina */
+input[type="text"], input[type="email"], textarea, select, button{
+  display: block;
+  background-color: #E0FFFF;
+  margin: 15px 0px;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 5px;
+  width: 400px;
+  box-sizing: border-box;
+  border-radius: 4px;
+  border-color: blue;
+}
+
+button{
+  background-color: white;
+  color: #ed1b2e;
+}
+textarea{
+  height: 100px;
+  padding: 5px 4px;
+}
+
+form{
+  max-width: 500px;
+  margin: auto;
+}
+
+button:active{
+background-color: blue;
+color: white;
+border-radius: 4px; box-shadow: inset 2px 2px 5px blue;
+}
+
+footer{
+  background-color: #ed1b2e;
+  color: white;
+  text-align: center;
+  padding: 5px;
+  margin-bottom: 200px;
+  width: 100%;
+  height: 200px;
+}

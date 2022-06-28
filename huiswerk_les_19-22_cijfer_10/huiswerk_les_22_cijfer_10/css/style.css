@@ -1,0 +1,64 @@
+/* css stylesheet huiswerk les 22 */
+
+body{
+  background-color: #fcfaf5;
+  margin: 0;
+}
+
+/*header overschreven bootstrap*/
+.navbar{
+  min-height: 200px;
+  background-color: black;
+}
+
+/* contact pagina */
+input[type="text"], input[type="email"], textarea, select, button{
+  display: block;
+  background-color: white;
+  margin: 15px 0px;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 5px;
+  width: 300px;
+  box-sizing: border-box;
+  border-radius: 4px;
+  border-color: black;
+}
+
+button{
+  background-color: white;
+  color: black;
+}
+textarea{
+  height: 100px;
+  padding: 5px 4px;
+}
+
+form{
+  max-width: 500px;
+  margin: auto;
+}
+
+button:active{
+background-color: black;
+color: white;
+border-radius: 4px; box-shadow: inset 2px 2px 5px blue;
+}
+
+a{
+  text-decoration: none;
+}
+
+/*footer*/
+#foot{
+  color: white;
+}
+
+p{
+  text-align: center;
+}
+
+footer{
+  min-height: 200px;
+  background-color: black;
+}

@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+    <head>
+      <meta charset="utf-8">
+      <title>Tandartsafspraak</title>
+      <meta name="description" content="informatie en afsprakenformulier tandarts">
+      <meta name="keywords" content="afspraak, dentalclinics, informatie, klachten">
+      <meta name="author" content="Michael Toet">
+    </head>
+    <body>
+      <img src="https://www.dentalclinics.nl/wp-content/uploads/2013/03/dentalclinics-balie.png" width="474" height="188" alt="dentalclinics receptie" style="vertical-align: top;">
+      <h1>Afspraak maken bij dentalclinics</h1>
+      <p>
+         Wilt u een afspraak maken, verzetten of annuleren? <br>Of bent u nog
+         niet op de praktijk geweest en zoekt u meer informatie over uw eerste
+         tandartsbezoek?<br>Op deze pagina vindt u alles wat u moet weten over
+         uw afspraak.<br>Aanmelden als patiënt Staat u nog niet ingeschreven
+         bij een Dental Clinics praktijk?<br>U kunt uzelf of uw kind eenvoudig
+         via het inschrijfformulier aanmelden als patiënt.<br> iever bellen of
+         mailen? Dat kan uiteraard ook. Wij helpen u graag verder.<br>
+         Onderaan op deze pagina vindt u een inschrijfformulier.<br>Als we uw
+         inschrijving hebben ontvangen, ontvangt u een uitnodiging voor een
+         eerste consult en een medische vragenlijst.
+      </p>
+      <figure>
+       <img src="https://www.maxvandaag.nl/wp-content/uploads/2021/04/bang-tandarts-shutterstock-900x500-1-890x500.jpg" alt="tandarts bezig" title="tandarts" width="300" height="200">
+       <img src="https://www.dentaldesigncenter.nl/wp-content/uploads/dental-design-weer-geopend-reguliere-tandzorg.jpg" alt="behandeling" title="tandarts behandeling" width="300" height="225">
+       <img src="https://www.mondzorgdewaterweg.nl/wp-content/uploads/2016/10/tandarts-maassluis-v2.jpg" alt="praktijk" title="tandarts parktijk" width="300" height="250">
+     </figure>
+     <br>
+     <h2>Vul het onderstaande formulier in om uw afspraak te maken</h2>
+     <form id="contactform" action="https://formspree.io/f/xnqwjbjo" method="post">
+       <fieldset>
+          <legend>Uw Persoonlijke gegevens</legend>
+            <label for="naam">Naam</label>
+              <input id="naam" type="text" name="naam" placeholder="naam"><br>
+              <input type="radio" name="geslacht" value="man" checked>Man
+              <input type="radio" name="geslacht" value="vrouw">Vrouw
+              <input type="radio" name="geslacht" value="anders">Anders
+              <br>
+            <label for="adres">Adres</label>
+              <input id="adres" type="text" name="adres" placeholder="Adres">
+              <br>
+            <label for="postcode">Postcode</label>
+              <input id="postcode" type="text" name="postcode" placeholder="Postcode">
+              <br>
+            <label for="woonplaats">Woonplaats</label>
+              <input id="woonplaats" type="text" name="woonplaats" placeholder="Woonplaats">
+              <br>
+            <label for="tel">telefoonnummer</label>
+              <input id="tel" type="text" name="tel" placeholder="uw telefoonnummer" minlength="10">
+              <br>
+            <label for="email">Uw e-mailadres</label>
+              <input id="email" type="text" name="_replyto" placeholder="Uw email">
+      </fieldset>
+      <fieldset>
+          <legend>Beschrijving van uw klachten</legend><br>
+          <b>Selecteer één of meer klachten </b><br>
+          <input type="checkbox" name="onderwerpen" value="ja">Spoed
+          <input type="checkbox" name="onderwerpen" value="ja">Kiespijn
+          <input type="checkbox" name="onderwerpen" value="ja">Kapote vulling
+          <input type="checkbox" name="onderwerpen" value="ja">Problemen met beugel
+          <br>
+          <label for="foto">Selecteer een klachtenfoto</label>
+            <input type="file" id="foto" name="klachtenfoto"><br>
+      </fieldset>
+      <fieldset>
+      <legend>Toelichting van uw klachten</legend><br>
+        <label for="Toelichting">Toelichting</label>
+        <br>
+      <textarea id="Toelichting" name="message" placeholder="Uw klachten" minlength="1" maxlength="1500"></textarea>
+      <br>
+      <label for="klacht">Klachten sinds</label>
+        <input id="klacht" type="date" name="datum" max="2080-12-31"><br><br>
+        <input type="text" name="gotcha" style="display:none"/>
+        <input type="submit" value="Verzend">
+     </fieldset>
+    </form>
+   </body>
+</html>

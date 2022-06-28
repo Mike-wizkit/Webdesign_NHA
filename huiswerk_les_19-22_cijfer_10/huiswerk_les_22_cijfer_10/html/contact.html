@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="contact page">
+    <meta name="keywords" content="Contact, vragen, opmerkingen, formulier">
+    <meta name="author" content="Michael T.">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="../css/style.css">
+    <title>Huiswerk les 22 | Contact</title>
+  </head>
+  <body>
+    <header>
+      <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">Mijn huiswerk</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link" href="../index.html">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="overmij.html">Over mij</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="contact.html">Contact</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </header>
+    <main>
+      <section class="py-5 text-center container">
+        <div class="row py-lg-5">
+          <div class="col-lg-6 col-md-8 mx-auto">
+            <h2 class="fw-light">Contactformulier</h2><br>
+            <p class="lead text-muted">
+              heeft u nog vragen of opmerkingen?<br>of wilt u meer informatie?<br>
+              voelt u zich dan vrij om via het formulier contact met mij op te nemen
+            </p><br>
+            <form action="https://formspree.io/f/xnqwjbjo" method="post">
+              <input type="text" placeholder="Uw naam" />
+              <input type="text" placeholder="Uw achternaam" />
+              <input type="email" name="_replyto" placeholder="Uw email">
+              <input type="hidden" name="subject" value="Website contact">
+              <textarea name="message" placeholder="Uw bericht"></textarea>
+              <input type="text" name="gotcha" style="display:none"/>
+              <button type="submit">Verzend</button>
+            </form>
+          </div>
+        </div>
+      </section>
+    </main>
+    <footer class="footer d-flex flex-wrap justify-content-center align-items-center py-3 my-4 border-top bg-dark">
+      <p id="foot">
+        &copy; 2022 mijn huiswerk les 22
+      </p>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+  </body>
+</html>

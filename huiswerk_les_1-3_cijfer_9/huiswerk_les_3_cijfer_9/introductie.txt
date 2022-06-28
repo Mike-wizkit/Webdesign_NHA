@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="description" content="Introductie pagina">
+    <meta name="keywords" content="Wie ben ik, Maassluis, Webdesign, cursus,">
+    <meta name="author" content="Michael Toet">
+     <title>Introductie</title>
+  </head>
+  <body>
+    <h1>Wie ben ik?</h1>
+      <p>Ik ben: <b>Michael Toet</b>,<br>
+      Ik ben: <b>31 jaar</b><br>
+      Ik woon in: <em><strong>Maassluis</strong></em><br>
+      Mijn <b><i>hobby's</b></i>zijn:
+    <ul>
+       <li><strong>Outdoor</strong></li>
+    <ul>
+       <li>Hiken & Bushcraft</li>
+       <li>Zeilen</b></li>
+    </ul>
+       <li><b>Hondentrainen</b>(professioneel)</li>
+       <li><b>Leren</b></li>
+    </ul>
+      </p>
+    <hr>
+    <h3>Waarom ik de cursus Webdesign volg:</h3>
+    <p><strong>Ik volg deze cursus omdat:</strong><br>
+    Ik in het verleden een paar keer een website heb gemaakt met wordpress. (wat
+    redelijk ging)<br> Maar ik zat altijd vast aan vaste templates, en toen ik aan
+    het scrollen was door de website van NHA zag ik dat het best wel goedkoop was
+    om deze cursus te volgen.<br> En heb ik besloten om te kijken of ik het nu
+    professioneel kan leren. (want baat het niet schaadt het niet)<br> En als ik
+    het makkelijk en goed kan leren, en het aan het eind van de cursus nog
+    steeds leuk vind.<br> Zit ik er aan te
+    denken om ook de cursus <q>Apps Progammeren</q> te volgen.</p>
+  </body>
+</html>
